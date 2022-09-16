@@ -74,32 +74,33 @@ justify-content:space-between;
 	margin-top:10px;
 	padding:20px 10px 10px 0px;
 }
+/* about */
 .about-cont{ 
 	display:flex;
 	justify-content:space-between;
 	width:100%;
-	height:50vh;
-	padding-top:50px;
+	height:100vh;
+	padding-top:60px;
 }
 .about{
 	width:100%;
-	height:400px;
+	height:70vh;
 	margin-top:30px;
 	background-color:white;
 }
 .about-pic{ 
 	border:15px solid rgb(230, 162, 94);
 	margin-top:50px;
-	width:25%;
-	height:60vh;
+	width:23%;
+	height:45vh;
 } 
 .about-pic img{
-	width:230px;
+	width:250px;
     height:300px;
 }
 .img{
-	margin-left:30px;
-	margin-top:-7vh;
+	margin-left:50px;
+	margin-top:-10vh;
 }
 .about-content{
 	width:65%; 
@@ -119,8 +120,8 @@ justify-content:space-between;
 /* service */
 .service{
 	width:100%;
-	height:20vh;
-	margin-top:30px;
+	height:40vh;
+	margin-top:40px;
 }
 .service-cont{
 	width:100%;
@@ -151,9 +152,12 @@ justify-content:space-between;
 /* portfolio */
 .porfolio{
 	padding-top:30px;
-}
-.pro{
 	text-align:center;
+	width:100%;
+	height:100vh;
+}
+.por-ul{
+	margin-top:20px;
 }
 .pro h1{
 	font-size:2rem;
@@ -176,4 +180,31 @@ justify-content:space-between;
 	display:flex;
 	justify-content:space-between;
 	margin-top:20px;
+}
+/* jour */
+.journal{
+	margin-top:50px;
+	width:100%;
+	height:auto;
+	
+}
+.journal h1{
+	text-align:center;
+}
+.jour{
+	width:100%;
+	height:30vh;
+	display:flex;
+	justify-content:space-between;
+	padding-top:30px;
+	align-items:center;
+}
+.jour-cont img{
+	width:100%;
+	height:350px;
+}
+.jour-cont{
+	width:32%;
+	height:20vh;
+	padding-top:15px;
 }
