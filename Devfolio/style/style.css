@@ -58,21 +58,25 @@ header{
 	height:650px;
 	position:relative;
 	align-items:center;
+	background-color:black;
+	opacity:0.9;
 }
 .panner-cont{
-	text-align:center;
-	z-index:-1; 
+	text-align:center; 
 	color:white;
 	width:100%;
 	padding:20% 0 0 0;
+	z-index:1;
 }
-.panner-cont::after{
+.panner::after{ 
 	content:"";
 	background-color:rgba(0,0,0,0.6);
+	position:absolute;
 	bottom:0;
 	left:0;
 	right:0;
 	top:0;
+	z-index:-1;
 }
 .panner-cont h1{
 	font-size:3.5rem;
@@ -82,4 +86,78 @@ header{
 	padding-top:10px;
 	font-size:2rem;
 	letter-spacing:1px;
+	z-index:1;
+}
+/* abou */
+.about{
+	width:100%;
+	height:100vh;
+	margin-top:60px;
+}
+.aboutme{
+	padding:5% 25px 25px 25px;
+	background-color:white;
+	border-radius:10px;
+	box-shadow: 0px 0px 1px black;
+	display:flex;
+	justify-content:space-between;
+	letter-spacing:1px;
+	
+}
+.abo{
+	width:47%;
+	height:100vh;
+}
+.abou{
+	display:flex;
+	width:100%;
+	height:35vh;
+	line-height:3.3rem;
+}
+.abou-pro{
+	width:100%;
+	height:60vh;
+}
+.abou-pro progress{
+	width:100%;
+	height:30px;
+}
+.abou-pro h1{
+	font-size:20px;
+}
+.abou-pro h3{
+	font-size:15px;
+	padding-top:10px;
+}
+.abou-img{
+	width:45%;
+}
+.abou-img img{
+	border-radius:10px;
+	width:90%;
+}
+.about-de{
+	width:49%;
+}
+.abou-de b{
+	font-size:20px;
+}
+.abou-de ul li{
+	list-style-type:none;
+}
+.about-cont{
+	width:50%;
+	height:100vh;
+}
+.about-cont p{
+	color:gray;
+	line-height:2rem;
+	padding-top:10px;
+	font-size:20px;
+	text-align:left;
+	font-weight:12px;
+}
+.about-cont h1{
+	font-size:2rem;
+	padding-bottom:20px;
 }
