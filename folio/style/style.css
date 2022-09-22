@@ -11,11 +11,12 @@
 	position:fixed;
 	background-color:rgb(235, 245, 243);
 	width:100%;
-	height:10vh;
+	height:7vh;
 	top:4;
 	left:0;
 	right:0;
 	z-index:997;
+	align-items:center;
 
 }
  .headbar a{
@@ -27,13 +28,14 @@
 }
 .headbar{
 	width:100%;
-	height:50px;
+	height:auto;
 	display:flex;
 	justify-content:space-between;
     align-items:center; 
 }
 .logo{
 	width:40%;
+	height:auto;
 }
 .logo img{
 	width:10%;
@@ -45,6 +47,7 @@ justify-content:space-between;
 }
 .headbar nav{
 	width:60%;
+	height:auto;
 }
  /* panner */
 .banner{
@@ -53,6 +56,7 @@ justify-content:space-between;
 	background-attachment:fixed;
 	width:100%;
 	height:650px;
+	/* height:auto; */
 	position:relative;
 }
 .banner-cont h1{ 
@@ -79,6 +83,7 @@ justify-content:space-between;
 	display:flex;
 	justify-content:space-between;
 	width:100%;
+	height:auto;
 	padding-top:60px;
 }
 .about{
@@ -94,7 +99,8 @@ justify-content:space-between;
 } 
 .about-pic img{
 	width:100%;
-    height:350px;
+    /* height:350px; */
+	height:auto;
 }
 .img{
 	margin-left:50px;
@@ -102,6 +108,7 @@ justify-content:space-between;
 }
 .about-content{
 	width:68%; 
+	height:auto;
 	color:gray;
 	margin-top:10vh;
 	letter-spacing:3px;
@@ -118,11 +125,12 @@ justify-content:space-between;
 /* service */
 .service{
 	width:100%;
-	height:40vh;
+     height:auto;
 	margin-top:40px;
 }
 .service-cont{
 	width:100%;
+	height:auto;
 	display:flex;
 	justify-content:space-between;
 	align-items:center;
@@ -147,19 +155,23 @@ justify-content:space-between;
 }
 /* portfolio */
 .porfolio{
-	padding-top:30px;
-	text-align:center;
+	margin-top:10%;
 	width:100%;
-	height:100vh;
+	height:auto;
 }
 .por-ul{
 	margin-top:20px;
+}
+.pro-link{
+	text-align:center;
+	width:100%;
 }
 .pro h1{
 	font-size:2rem;
 	letter-spacing:1px;
 	font-weight:bold;
    text-shadow:0 0 1px black;
+   text-align:center;
 }
 .por-ul a{
 	text-decoration:none;
@@ -168,12 +180,14 @@ justify-content:space-between;
 	color:black;
 	font-weight:bold;
 	margin-top:30%;
+	
 }
 .por-ul a:hover{
 	color:orange;
 }
 .prof-img{
   width:100%;
+  height:auto;
 }
 .por-img{
 	display:flex;
@@ -182,13 +196,31 @@ justify-content:space-between;
 }
 .p-img{
 	width:33%;
+	position:relative;
+	height:auto;
+}
+.img-box{
+	width:90%;
+	height:auto;
+	border-radius:10px;
+	box-shadow:0px 0px 2px black;
+	background-color:rgba(250, 250, 250,0.9);
+	padding:10px;
+	opacity:0;
+	content:"";
+	position:absolute;
+	top:200px;
+	left:10px;
+}
+.img-box:hover{
+	opacity:1;
 }
 .p-img img{
 	width:100%;
 }
 /* jour */
 .journal{
-	margin-top:10%;
+	margin-top:50px;
 	width:100%;
 	background-color:rgba(191, 198, 201,0.3);
 	
@@ -206,13 +238,13 @@ justify-content:space-between;
 }
 .jour-cont img{
 	width:100%;
-	height:350px;
+	height:auto;
 }
 .jour-cont{
 	width:32%;
 	padding-top:15px;
 	letter-spacing:1px;
-	
+	height:auto;
 }
 .jour-cont h3{
 	padding-top:10px;
@@ -225,7 +257,7 @@ justify-content:space-between;
 }
 /* add */
 .address{
-	height:70vh;
+	height:auto;
 	width:100%;
 	background-color:white;
 	margin-top:5%;
@@ -234,12 +266,14 @@ justify-content:space-between;
 	display:flex;
 	justify-content:space-between;
 	width:100%;
+	height:auto;
 	line-height:1.5rem;
 	align-items:center;
 	font-weight:bold;
 }
 .addr{
 	width:40%;
+	height:auto;
 }
 .addr p{
 	color:gray;
@@ -247,6 +281,7 @@ justify-content:space-between;
 }
 .form{
 	width:50%;
+	height:auto;
 	background-color:rgba(191, 198, 201,0.3);
 	box-shadow:0 0px 1px black;
 	padding:5px;
@@ -254,12 +289,13 @@ justify-content:space-between;
 }
 .name{
 	width:100%;
-	height:40px;
+	height:auto;
 	display:flex;
 	justify-content:space-between;
 }
 .name input{
 	width:47%;
+	height:auto;
 	padding-left:5px;
 	letter-spacing:1px;
 	font-weight:15px;
@@ -271,7 +307,7 @@ justify-content:space-between;
 }
 .supject input{
 	width:100%;
-	height:40px;
+	height:auto;
 	margin:10px 0px 0px 0px;
 	padding-left:5px;
 	letter-spacing:1px;
@@ -282,7 +318,7 @@ justify-content:space-between;
 }
 .tet textarea{
 	width:100%;
-	height:100px;
+	height:auto;
 	margin:10px 0px 0px 0px;
 	font-weight:bold;
 }
@@ -290,6 +326,7 @@ button{
 	background-color:black;
 	color:white;
 	width:100%;
+	height:auto;
 	text-align:center;
 	padding:10px 30px;
 }
@@ -300,8 +337,10 @@ button:hover{
 /* foo */
 footer{
 	width:100%;
+	height:auto;
 	background-color:rgba(191, 198, 201,0.3);
 	text-align:center;
+	margin-top:20px;
 }
 .copyrite p{
 	color:gray;
