@@ -79,31 +79,29 @@ justify-content:space-between;
 	display:flex;
 	justify-content:space-between;
 	width:100%;
-	height:100vh;
 	padding-top:60px;
 }
 .about{
 	width:100%;
-	height:70vh;
 	padding-top:30px;
 	background-color:rgba(191, 198, 201,0.2);
 }
 .about-pic{ 
 	border:15px solid rgb(230, 162, 94);
 	margin-top:50px;
-	width:23%;
-	height:45vh;
+	width:25%;
+    height:350px;
 } 
 .about-pic img{
-	width:250px;
-    height:300px;
+	width:100%;
+    height:350px;
 }
 .img{
 	margin-left:50px;
 	margin-top:-10vh;
 }
 .about-content{
-	width:65%; 
+	width:68%; 
 	color:gray;
 	margin-top:10vh;
 	letter-spacing:3px;
@@ -125,14 +123,12 @@ justify-content:space-between;
 }
 .service-cont{
 	width:100%;
-	height:20vh;
 	display:flex;
 	justify-content:space-between;
 	align-items:center;
 }
 .icon2{
 	width:24%;
-	height:20vh;
 	box-shadow: 0 0 0.7px black;
 	padding:5px;
 }
@@ -194,7 +190,6 @@ justify-content:space-between;
 .journal{
 	margin-top:10%;
 	width:100%;
-	height:90vh;
 	background-color:rgba(191, 198, 201,0.3);
 	
 }
