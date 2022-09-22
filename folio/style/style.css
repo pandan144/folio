@@ -168,7 +168,7 @@ justify-content:space-between;
 .por-ul a{
 	text-decoration:none;
 	margin-left:6px;
-	font-size:10px;
+	font-size:15px;
 	color:black;
 	font-weight:bold;
 	margin-top:30%;
@@ -176,10 +176,19 @@ justify-content:space-between;
 .por-ul a:hover{
 	color:orange;
 }
+.prof-img{
+  width:100%;
+}
 .por-img{
 	display:flex;
 	justify-content:space-between;
-	margin-top:20px;
+	padding-top:20px;
+}
+.p-img{
+	width:33%;
+}
+.p-img img{
+	width:100%;
 }
 /* jour */
 .journal{
@@ -195,7 +204,6 @@ justify-content:space-between;
 }
 .jour{
 	width:100%;
-	height:30vh;
 	display:flex;
 	justify-content:space-between;
 	padding-top:30px;
@@ -207,7 +215,6 @@ justify-content:space-between;
 }
 .jour-cont{
 	width:32%;
-	height:20vh;
 	padding-top:15px;
 	letter-spacing:1px;
 	
@@ -232,7 +239,6 @@ justify-content:space-between;
 	display:flex;
 	justify-content:space-between;
 	width:100%;
-	height:50vh;
 	line-height:1.5rem;
 	align-items:center;
 	font-weight:bold;
@@ -249,10 +255,7 @@ justify-content:space-between;
 	background-color:rgba(191, 198, 201,0.3);
 	box-shadow:0 0px 1px black;
 	padding:5px;
-	letter-spacing:1.5px;
-	font-weight:bold;
-	font-size:13px;
-	color:gray;
+	
 }
 .name{
 	width:100%;
@@ -261,12 +264,25 @@ justify-content:space-between;
 	justify-content:space-between;
 }
 .name input{
-	width:45%;
+	width:47%;
+	padding-left:5px;
+	letter-spacing:1px;
+	font-weight:15px;
+	font-size:13px;
+	color:gray;
+}
+.name input:hover{
+	/* :blue; */
 }
 .supject input{
 	width:100%;
 	height:40px;
 	margin:10px 0px 0px 0px;
+	padding-left:5px;
+	letter-spacing:1px;
+	font-weight:15px;
+	font-size:13px;
+	color:gray;
 
 }
 .tet textarea{
@@ -286,6 +302,7 @@ button:hover{
 	background-color:white;
 	color:black;
 }
+/* foo */
 footer{
 	width:100%;
 	background-color:rgba(191, 198, 201,0.3);
@@ -297,6 +314,9 @@ footer{
 	
 }
 .i{
-	font-size:30px;
+	font-size:20px;
 	padding: 10px ;
+}
+.i:hover{
+	color:orange;
 }
