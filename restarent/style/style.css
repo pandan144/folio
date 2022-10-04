@@ -98,7 +98,7 @@ justify-content:space-between;
 }
 .banner-cont2 p{
 	letter-spacing:3px;
-	font-size:18px;
+	font-size:1.5rem;
 	font-weight:30px;
 	margin-top:10px;
 }
@@ -115,18 +115,19 @@ justify-content:space-between;
 	opacity:1;
 }
 .banner-button a:hover{
-	background-color: rgba(255, 175, 26, 0.9);
+	backgroundcolor: rgba(255, 175, 26, 0.9);
 }
 .icon{
 	font-size:20px;
 	color:orange;
 	font-weight:bold;
-	z-index:-1;
-	align-items:center;
+	z-index:-1;	align-items:center;
 	padding:1px 10px 0px 0px;
+	z-index:997;
 }
 .banner-icon span{
 	color:white;
+	z-index:997;
 }
 .about{
 	background-image:url(../img/about-bg.jpg);
@@ -162,11 +163,17 @@ justify-content:space-between;
 	letter-spacing:1px;
 	font-weight:bold;
 	line-height:2rem;
+	font-size:2rem;
 }
 .about-cont p{
 	letter-spacing:1px;
-	font-size:14px;
+	font-size:1.2rem;
 	line-height:1.5rem;
+	padding: 10px 0px;
+}
+.about-cont p .ion{
+	color:orange;
+	padding-right:10px;
 }
 .abo-img{
 	width:50%;
@@ -176,5 +183,61 @@ justify-content:space-between;
 .abo-img img{
 	width:100%;
 	
+}
+/* whyus */
+.whyus{
+	background-color: black;
+	padding:4% 0;
+}
+.why-cont{
+	width:100%;
+}
+.why-cont h4{
+	color:gray;
+	font-size:1rem;
+}
+.why-cont h4::after{
+	content:"";
+	position:relative;
+	width:20%;
+	height:2px;
+	color:gray;
+}
+.why-cont h1{
+	color:orange;
+	font-size:2.5rem;
+	margin:10px 0px;
+}
+.row-flex{
+	display:flex;
+	justify-content:space-between;
+	color:white;
+	width:100%;
+}
+.flex-box{
+	width:32%;
+	background-color:rgb(77, 75, 70);
+	border-radius:20px;
+	padding:3%;
+}
+.flex-box h3{
+	font-size:2rem;
+	color:orange;
+	margin:5px 0px;
+}
+.flex-box h3:hover{
+	color:white;
+}
+.flex-box h1{
+	font-size:2rem;
+	margin:5px 0px;
+}
+.flex-box p{
+	font-size:1.2rem;
+	line-height:1.5rem;
 	
+}
+.flex-box:hover{
+	background-color:orange;
+	color:white;
 }
