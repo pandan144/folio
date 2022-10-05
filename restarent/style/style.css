@@ -115,7 +115,7 @@ justify-content:space-between;
 	opacity:1;
 }
 .banner-button a:hover{
-	backgroundcolor: rgba(255, 175, 26, 0.9);
+	background-color: rgba(255, 175, 26, 0.9);
 }
 .icon{
 	font-size:20px;
@@ -210,6 +210,7 @@ justify-content:space-between;
 }
 .row-flex{
 	display:flex;
+	flex-wrap:wrap;
 	justify-content:space-between;
 	color:white;
 	width:100%;
@@ -240,4 +241,54 @@ justify-content:space-between;
 .flex-box:hover{
 	background-color:orange;
 	color:white;
+}
+/* menu */
+.menu{
+	background-color: #1a1814;	
+}
+.menu-link{
+	width:100%;
+	text-align:center;
+	margin:10px 0px;
+}
+.menu-link  ul li{
+	list-style-type:none;
+	display:inline-block;
+	padding:0px 10px;
+}
+.menu-link ul li a{
+	text-decoration:none;
+	color:white;
+	font-size:18px;
+}
+.menu-link ul li a:hover{
+	color:orange;
+}
+.menu-img{
+	display:flex;
+	justify-content:space-between;
+	width:100%;
+}
+.menu-img .menu-cont{
+	width:50%;
+	display:flex;
+	justify-content:space-between;
+}
+.menu-cont .menu-img2{
+	width:50%;
+}
+.img-radius{
+	width:15%;
+}
+.img-radius img{
+	width:100%;
+	border-radius:50%;
+	border:5px solid gray;
+}
+.menu-cont2{
+	width:85%;
+}
+.menu-cont2 h3{
+	color:white;
+	font-size:1rem;
 }
