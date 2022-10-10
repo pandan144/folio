@@ -269,16 +269,21 @@ justify-content:space-between;
 	justify-content:space-between;
 	width:100%;
 }
+.menu-img2{
+	width:49%;
+}
 .menu-img .menu-cont{
-	width:50%;
+	width:100%;
 	display:flex;
 	justify-content:space-between;
+	align-items:center;
+	margin:10px 0px;
 }
 .menu-cont .menu-img2{
 	width:50%;
 }
 .img-radius{
-	width:15%;
+	width:18%;
 }
 .img-radius img{
 	width:100%;
@@ -286,9 +291,274 @@ justify-content:space-between;
 	border:5px solid gray;
 }
 .menu-cont2{
-	width:85%;
+	width:80%;
 }
 .menu-cont2 h3{
 	color:white;
 	font-size:1rem;
+}
+.menu-cont2 h3:hover{
+	color:orange;
+}
+.menu-cont p{
+	color:gray;
+	letter-spacing:1px;
+	font-size:0.7rem;
+}
+/* "special-item"*/
+.special{
+	background-color:black;
+	color:white;
+	padding:20px 0px;
+}
+.special-flex{
+	display:flex;
+	width:100%;
+	justify-content:space-between;
+}
+.spacial-1{
+	width:19%;
+	line-height:2rem;
+	border-right:2px solid orange;
+}
+.spacial-2{
+width:80%;
+display:flex;
+flex-wrap:wrap;
+}
+.special-item{
+	width:80%;
+}
+.special-item h1{
+	font-size:1.5rem;
+	font-weight:bold;
+	margin:0px 10px;
+}
+.special-item p{
+	line-height:2rem;
+	color:white;
+	font-size:1.2rem;
+}
+
+.special-item2{
+	width:20%
+}
+.special-item2 img{
+	width:100%;
+}
+.link li{
+	list-style-type:none;
+}
+.link a{
+	text-decoration:none;
+	color:white;
+	font-size:1.2rem;
+	font-weight:bold;
+}
+.link ul li:hover{
+	background-color:orange;
+}
+.link{
+	width:100%;
+}
+/* events */
+.events{
+	background-image:url(../img/events-bg.jpg);
+	background-size:cover;  
+	background-attachment:fixed;
+	width:100%;
+	height:650px;
+	position:relative;
+	z-index:997;
+}
+.events::after{
+	content:"";
+	position:absolute;
+	top:0;
+	right:0;
+	left:0;
+	bottom:0;
+	background-color:rgba(0, 0, 0,0.6);
+	
+}
+.even-head{
+	z-index:1;
+	width:100%;
+	padding:10px 0px;
+}
+.even-head h4{
+	color:gray;
+	font-size:2rem;
+	z-index:1;
+}
+.even-head h1{
+	color:orange;
+	font-size:2.5rem;
+	margin:10px 0px;
+	z-index:997;
+}
+.even-cont{
+	width:50%;
+	color:white;
+	z-index:997;
+}
+.even-cont h1{
+	font-size:2rem;
+	color:orange;
+}
+.even-cont ins{
+	margin:10px 0px;
+	font-size:1.7rem;
+}
+.even-cont p{
+	font-size:1.2rem;
+	line-height:1.5rem;
+	margin:15px 0px;
+	letter-spacing:2px;
+}
+.even-flex{
+	display:flex;
+	width:100%;
+	justify-content:space-between;
+	z-index:997;
+}
+.even-img{
+	width:49%;
+	z-index:997;
+}
+.even-img img{
+	width:100%;
+}
+/* book a table */
+.book{
+	background-color:black;
+}
+.book-head h4{
+	color:gray;
+	font-size:1.2rem;
+	z-index:1;
+	padding:10px 0px;
+}
+.book-head h1{
+	color:orange;
+	font-size:2.5rem;
+	z-index:997;
+}
+.ne{
+	width:100%;
+	display:flex;
+	justify-content:space-between;
+	margin:15px 0px;
+}
+.tab{
+	width:32%;
+	padding:10px;
+	background:none;
+	border:1px solid gray;
+}
+.divt textarea{
+	width:100%;
+	background:none;
+	height:150px;
+}
+.send{
+	width:100%;
+	padding:20px 0px;
+	text-align:center;
+}
+.send a{
+	background-color:orange;
+	color:white;
+	border-radius:30px;
+	text-decoration:none;
+	padding:10px 35px;
+}
+/* team */
+.team{
+	background-color: #1d1c1b;
+	padding:20px 0px;
+}
+.team-head h4{
+	color:gray;
+	font-size:1rem;
+}
+.team-head h1{
+	color:orange;
+	font-size:2.5rem;
+	margin:10px 0px;
+}
+.team-flex{
+	width:100%;
+	display:flex;
+	justify-content:space-between;
+	flex-wrap:wrap; 
+}
+.test-items{
+	width:32.5%;
+}
+.test-items .cont{
+   background-color:#26231D;
+	border-radius:5px;
+	line-height:1.5rem;
+	padding:10px;
+	color:white;
+	width:100%;
+	height:60%;          				   
+}
+.text-img img{
+	width:25%;
+	border:5px solid gray;
+	border-radius:100px;
+	margin:-30px 0px;
+	position:relative;
+}
+.text-img img:after{
+	width:100%;
+	border-radius:50%;
+	position:absolute;
+	content:"";
+	top:0;
+	left:0;
+	bottom:0;
+	right:0;
+}
+.details h2{
+	font-size:1.2rem;
+}
+.details h3{
+	font-size:1rem;
+	font-family:roboto;
+   color:#7F7E7C;
+}
+.details{
+   margin:10% 0;
+}
+/* gallary */
+.gallary{
+	background-color:black;
+}
+.gallary h4{
+	color:gray;
+	font-size:1.5rem;
+	padding:15px 0px;
+}
+.gallary h1{
+	color:orange;
+	font-size:2rem;
+	margin-bottom:15px;
+}
+.img-flex{
+	display:flex;
+	flex-wrap:wrap;
+	justify-content:space-between;
+}
+.imgs{
+	width:25%;
+}
+.img-flex .imgs img{
+	width:100%;
+}
+.imgs img:hover{
+	  transform:scale(1.1);
+      transition:ease-in 0.4s delay;
 }
