@@ -416,7 +416,7 @@
     }
 	.abo-img i{
 	position:absolute;
-	top:30%;
+	top:40%;
 	right:40%;
 	font-size:2rem;
 	display:flex;
@@ -700,7 +700,7 @@
 	width:90%;
 	line-height:1.3rem;
 }
-.box{
+.box1 .box2 .box3 .box5 .box4{
 	border-bottom:1px solid #d9e8f4;
 }
 }
@@ -733,11 +733,17 @@
 	width:100%;
 	line-height:1.3rem;
 }
-.box{
+.box1 ,.box2 ,.box3 ,.box4{
 	border-bottom:1px solid #d9e8f4;
+}
+.box1,.box3,.box5{
 	border-right:1px solid #d9e8f4;
 }
+.box5{
+	border-bottom:none;
 }
+}
+/*-----------------*/
 @media(min-width:992px){
 .list-row{
 	display:flex;
@@ -746,8 +752,8 @@
 	justify-content:space-between;
 }
 .list-content{
-	width:32%;
-	padding:3rem 0rem ;
+	width:33.3%;
+	padding:0rem 0rem ;
 	
 }
 .list-content span{
@@ -767,9 +773,17 @@
 	width:90%;
 	line-height:1.3rem;
 }
-.box{
+.box1,.box2,.box3,.box4{
 	border-bottom:1px solid #d9e8f4;
-	border-right:1px solid #d9e8f4;
+}
+.box3{
+	border-bottom:none;
+}
+.box5,.box4{
+	border-bottom:none;
+}
+.box5{
+	border-left:1px solid #d9e8f4;
 }
 }
 /*count section*/
@@ -1073,6 +1087,10 @@
     line-height: 1.4rem;
     color: #444;
 }
+.act{
+	background-color:blue!important;
+	color:white !important;
+}
 .port-button{
     text-align: center;
     margin-bottom: 4rem;
@@ -1092,6 +1110,7 @@
     border-radius: 0.5rem;
     transition: all 0.3s ease-in-out;
 }
+
 .port-row{
     flex-wrap: wrap;
     gap: 1.5rem;
@@ -1177,6 +1196,10 @@
     margin-bottom: 3rem;
     line-height: 1.4rem;
     color: #444;
+}
+.act{
+	background-color:blue!important;
+	color:white!important;
 }
 .port-button{
     text-align: center;
@@ -1283,6 +1306,10 @@
     margin-bottom: 3rem;
     line-height: 1.4rem;
 }
+.port-button .act{
+	background-color:blue !important;
+	color:white !important;
+}
 .port-button{
     text-align: center;
     margin-bottom: 4rem;
@@ -1302,6 +1329,7 @@
     border-radius: 0.5rem;
     transition: all 0.3s ease-in-out;
 }
+
 .port-row{
     display: flex;
     flex-wrap: wrap;
@@ -1741,7 +1769,7 @@
 }
 .contact-address{
     width:100%;
-	box-shadow: 0 0 30px rgb(214 215 216 / 60%);
+	box-shadow: 0 0 10px rgb(214 215 216 / 60%);
 	padding:1.5rem 0;
 }
 .contact-email{
