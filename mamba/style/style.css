@@ -99,8 +99,10 @@
 }
 .top-icon1 i{
     font-size: 1rem;
-    color: #428bca;
     padding: 5px;
+}
+.top-icon1 i:hover{
+	 color: #428bca;
 }
 .top-icon1 p{
     font-size:1.1rem;
@@ -109,7 +111,7 @@
 .top-icon2{
     letter-spacing: 1rem;
     font-size: 1rem;
-    color: #5c768d;
+    color: black;
 }
 .top-icon2 i:hover{
     color:  #428bca;
@@ -126,6 +128,7 @@
         padding: 0.5rem 0;
 		position:sticky;
 		top:0;
+		z-index:900;
     }
     .head-content{
         display: flex;
@@ -162,7 +165,7 @@
         padding: 0.5rem 0;
 		position:sticky;
 		top:0;
-		
+		z-index:900;
     }
     .head-content{
         display: flex;
@@ -193,7 +196,7 @@
     padding: 0.5rem 0;
 	position:sticky;
 	top:0;
-	z-index:100;
+	z-index:1000;
 	box-shadow: 0px 0px 1px #000;
 }
 .head-content{
@@ -212,9 +215,11 @@
     text-decoration: none;
     padding-right: 2.5rem;
 	font-size: 1.1rem;
-    color: #5c768d;
+    color:#5c768d;
 }
-
+.head-nav a:hover{
+	color: #5c768d;
+}
 .hed-title h1{
     font-size: 2rem;
     font-weight: 500;
@@ -288,7 +293,7 @@
 .banner{
 	background-image:url("../img/slide/slide-2.jpg");
 	width:100%;
-	height:100vh;
+	height:80vh;
 	background-position:top;
 	position:relative;
 }
@@ -420,7 +425,7 @@
 	right:40%;
 	font-size:2rem;
 	display:flex;
-	background-color:blue;
+	background-color:#4747e5;
 	color:white;
 	width:50px ;
 	height:50px;
@@ -428,6 +433,7 @@
 	align-items:center;
 	justify-content:center;
 	margin:auto;
+	box-shadow:0px 0px 30px #4747e5;
 }
 
     .about-head{
@@ -514,7 +520,7 @@
 	right:42%;
 	font-size:2rem;
 	display:flex;
-	background-color:blue;
+	background-color:#4747e5;
 	color:white;
 	width:60px ;
 	height:60px;
@@ -522,6 +528,7 @@
 	align-items:center;
 	justify-content:center;
 	margin:auto;
+	box-shadow: 0px 0px 30px #4747e5;
 }
 
     .about-head{
@@ -610,7 +617,7 @@
 	right:40%;
 	font-size:2rem;
 	display:flex;
-	background-color:blue;
+	background-color:#4747e5;
 	color:white;
 	width:50px ;
 	height:50px;
@@ -1045,7 +1052,7 @@
     color: #444;
     font-size: 1.3rem;
     font-weight: 600;
-    margin-bottom: 2rem;
+    margin:1rem;
     position: relative;
 }
 .service-content h3::after{
@@ -1121,6 +1128,7 @@
 .port-pic{
     width: 100%;
     position: relative;
+	margin:0.7rem 0;
 }
 .pic-content{
     text-align: center;
@@ -1198,7 +1206,7 @@
     color: #444;
 }
 .act{
-	background-color:blue!important;
+	background-color:#1c5c93!important;
 	color:white!important;
 }
 .port-button{
@@ -1231,6 +1239,7 @@
 .port-pic{
     width: 48%;
     position: relative;
+	margin:0rem;
 }
 .pic-content{
     text-align: center;
@@ -1343,6 +1352,7 @@
 .port-pic{
     width: 31%;
     position: relative;
+	margin:0rem;
 }
 .pic-content{
     text-align: center;
@@ -1774,16 +1784,22 @@
     width:100%;
 	box-shadow: 0 0 10px rgb(214 215 216 / 60%);
 	padding:1.5rem 0;
+	border:0.5px solid #f1e7e7;
+	margin:0.5rem 0;
 }
 .contact-email{
     width: 100%;
-	box-shadow: 0 0 30px rgb(214 215 216 / 60%);
+	box-shadow: 0 0 10px rgb(214 215 216 / 60%);
 	padding:1.5rem 0;
+	border:0.5px solid #f1e7e7;
+	margin:0.5rem 0;
 }
 .contact-num{
     width: 100%;
-	box-shadow: 0 0 30px rgb(214 215 216 / 60%);
-	padding:1.5rem 0;	
+	box-shadow: 0 0 10px rgb(214 215 216 / 60%);
+	padding:1.5rem 0;
+	border:0.5px solid #f1e7e7;
+	margin:0.5rem 0;
 }
 .contact-row i{
     font-size: 2rem;
@@ -2036,7 +2052,7 @@
 	text-align:center;
 }
 .form-button button{
-	background: #428bca;
+	background:#428bca;
 	border:2px solid #428bca;
 	font-size:1rem;
     padding: 10px 30px;
@@ -2114,7 +2130,6 @@
 	position:absolute;
 	padding:1rem;
 	text-decoration:none;
-	border-radius: 0px 10px 10px 0px;
 }
 }
 @media(min-width:560px){
@@ -2186,8 +2201,8 @@
 	padding:0.8rem;
 }
 .join2 {
-	border:1px solid blue;
-	background-color:blue;
+	border:1px solid #428bca;
+	background-color:#428bca;
 	color:white;
 	position:absolute;
 	padding:0.8rem;
@@ -2251,7 +2266,7 @@
 	background-color: #768fa6;
 }
 .footer-row1 i:hover{
-	background-color:black;
+	background-color:blue;
 	color:white;
 }
 	
@@ -2264,8 +2279,8 @@
 	padding:1rem;
 }
 .join2 {
-	border:1px solid blue;
-	background-color:blue;
+	border:1px solid #428bca;
+	background-color:#428bca;
 	color:white;
 	position:absolute;
 	padding:1rem;
